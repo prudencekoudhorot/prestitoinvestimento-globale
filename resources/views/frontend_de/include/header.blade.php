@@ -5,26 +5,26 @@
   </div>
   <div class="container d-flex align-items-center">
 
-    <h1 class="logo me-auto" style="font-size: 110%;"><a href="{{route('accueil')}}"><span>prestito </span>investimento-globale</a></h1>
+    <h1 class="logo me-auto" style="font-size: 110%;"><a href="{{route('accueil_de')}}"><span>prestito </span>investimento-globale</a></h1>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
     <nav id="navbar" class="navbar order-last order-lg-0">
       <ul>
-        <li><a href="{{route('accueil')}}">Accueil</a></li>
+        <li><a href="{{route('accueil_de')}}">Startseite</a></li>
 
-        <li class="dropdown"><a href="#"><span>Qui sommes nous ?</span> <i class="bi bi-chevron-down"></i></a>
+        <li class="dropdown"><a href="#"><span>Wer sind wir ?</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="{{route('apropos')}}">A Propos</a></li>
-            <li><a href="{{route('temoignages')}}">Les témoignages</a></li>
+            <li><a href="{{route('apropos_de')}}">Über uns</a></li>
+            <li><a href="{{route('temoignages_de')}}">Referenzen</a></li>
 
           </ul>
         </li>
-        <li><a href="{{route('contact')}}">Contactez-nous</a></li>
-        <li class="dropdown"><a href="#" class="active"><span>Français</span> <i class="bi bi-chevron-down"></i></a>
+        <li><a href="{{route('contact_de')}}">kontaktiere uns</a></li>
+        <li class="dropdown"><a href="#" class="active"><span>Deutsch</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="{{route('accueil_it')}}">Italien</a></li>
-            <li><a href="{{route('accueil_de')}}">Allemand</a></li>
+            <li><a href="{{route('accueil_it')}}">Italienisch</a></li>
+            <li><a href="{{route('accueil')}}">Französisch</a></li>
 
           </ul>
         </li>

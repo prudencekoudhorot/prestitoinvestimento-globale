@@ -51,12 +51,12 @@ class Frontend_itController extends Controller
              # code...
              Mail::to($email)->queue(new Contact_it($contenu));
  
-             return redirect()->route('accueil_it')->with('success', 'Mail envoyé avec succès.');
+             return redirect()->route('accueil_it')->with('success', 'Posta inviata con successo.');
  
          } catch(\Exception $e){
               //Get error here
              //Auth::login($user);
-             return redirect()->route('accueil_it')->with('Error', 'Echec d\'envoie du mail');
+             return redirect()->route('accueil_it')->with('Error', 'Impossibile inviare e-mail');
  
  
  

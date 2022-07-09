@@ -1,5 +1,5 @@
-@extends('frontend_it/include/layout')
-@section('title') Testimonianza @endsection
+@extends('frontend_de/include/layout')
+@section('title') Referenzen @endsection
 @section('contenu')
 <main id="main">
 
@@ -8,10 +8,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Testimonianze</h2>
+          <h2>Referenzen</h2>
           <ol>
-            <li><a href="{{route('accueil_it')}}">Pagina iniziale</a></li>
-            <li>Testimonianze</li>
+            <li><a href="{{route('accueil_de')}}">Startseite</a></li>
+            <li>Referenzen</li>
           </ol>
         </div>
 

@@ -1,5 +1,5 @@
-@extends('frontend_it/include/layout')
-@section('title') Contatto @endsection
+@extends('frontend_de/include/layout')
+@section('title') Accueil @endsection
 @section('contenu')
 {!! htmlScriptTagJsApi() !!}
 <main id="main">
@@ -9,10 +9,10 @@
   <div class="container">
 
     <div class="d-flex justify-content-between align-items-center">
-      <h2>Contatto</h2>
+      <h2>Kontakt</h2>
       <ol>
-        <li><a href="{{route('accueil_it')}}">Pagina iniziale</a></li>
-        <li>Contatto</li>
+        <li><a href="{{route('accueil_de')}}">Startseite</a></li>
+        <li>Kontakt</li>
       </ol>
     </div>
 
@@ -38,7 +38,7 @@
           <div class="row">
             <div class="col-lg-3 info">
               <i class="bi bi-geo-alt"></i> 
-              <p style="margin-top: 5px;">Italia</p>
+              <p style="margin-top: 5px;">Deutschland</p>
             </div>
 
             <div class="col-lg-5 info mt-4 mt-lg-0">
@@ -57,26 +57,26 @@
 
     <div class="row mt-5 justify-content-center" data-aos="fade-up">
       <div class="col-lg-10">
-        <form action="{{route('store.contact_it')}}" method="post">
+        <form action="{{route('store.contact_de')}}" method="post">
             @csrf
           <div class="row">
             <div class="col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Il tuo nome e cognome" required>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Ihr Vor- und Nachname" required>
             </div>
             <div class="col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="La tua email" required>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Deine E-Mail" required>
             </div>
           </div>
           <div class="form-group mt-3">
-            <input type="text" class="form-control" name="subject" id="subject" placeholder="Oggetto del messaggio" required>
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Der Betreff Ihrer Nachricht" required>
           </div>
           <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Il tuo messaggio" required></textarea>
+            <textarea class="form-control" name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
           </div>
           <div class="mb-2 mt-2">
           {!! htmlFormSnippet() !!}
           </div>
-          <div class="text-centerx"><button class="btn btn-success" type="submit">Invia</button></div>
+          <div class="text-centerx"><button class="btn btn-success" type="submit">Senden</button></div>
         </form>
       </div>
 

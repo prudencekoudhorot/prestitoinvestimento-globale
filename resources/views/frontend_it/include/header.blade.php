@@ -24,7 +24,7 @@
         <li class="dropdown"><a href="#" class="active"><span>Italiano</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="{{route('accueil')}}">Francese</a></li>
-            <li><a href="#">Tedesco</a></li>
+            <li><a href="{{route('accueil_de')}}">Tedesco</a></li>
 
           </ul>
         </li>

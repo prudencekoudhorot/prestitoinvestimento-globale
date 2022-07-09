@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Frontend_deController;
 use App\Http\Controllers\Frontend_frController;
 use App\Http\Controllers\Frontend_itController;
 use Illuminate\Support\Facades\Route;
@@ -40,5 +41,17 @@ Route::any('testimonianze/it', [Frontend_itController::class, 'temoignages'])->n
 Route::any('contatto/it', [Frontend_itController::class, 'contact'])->name('contact_it');
 //Store contact
 Route::any('contatto/registrazione/it', [Frontend_itController::class, 'store'])->name('store.contact_it');
+
+
+//frontend_de
+Route::any('/de', [Frontend_deController::class, 'index_de'])->name('accueil_de');
+//a propos
+Route::any('um/de', [Frontend_deController::class, 'apropos'])->name('apropos_de');
+//temoignages
+Route::any('Referenzen/de', [Frontend_deController::class, 'temoignages'])->name('temoignages_de');
+//contact
+Route::any('Kontakt/de', [Frontend_deController::class, 'contact'])->name('contact_de');
+//Store contact
+Route::any('Kontakt/anmeldung/de', [Frontend_deController::class, 'store'])->name('store.contact_de');
 
 

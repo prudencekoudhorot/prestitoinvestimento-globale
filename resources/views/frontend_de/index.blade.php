@@ -1,5 +1,5 @@
-@extends('frontend_it/include/layout')
-@section('title') Pagina iniziale @endsection
+@extends('frontend_de/include/layout')
+@section('title') Startseite @endsection
 @section('contenu')
 <!-- ======= Hero Section ======= -->
 <section id="hero">
@@ -11,8 +11,8 @@
         <div class="carousel-item active" style="background-image: url({{asset('theme/assets/img/slide/slide-1.jpg')}});">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2>Benvenuto a <span>Prestitoinvestimento-globale</span></h2>
-              <p class="text-center">Siamo un'organizzazione che offre credito a tutte le persone bisognose indipendentemente dal loro campo senza alcun vincolo.</p>
+              <h2>Willkommen zu <span>Prestitoinvestimento-globale</span></h2>
+              <p class="text-center">Wir sind eine Organisation, die allen Bedürftigen, unabhängig von ihrem Fachgebiet, uneingeschränkt Kredite anbietet.</p>
             </div>
           </div>
         </div>
@@ -21,8 +21,8 @@
         <div class="carousel-item" style="background-image: url({{asset('theme/assets/img/slide/slide-2.jpg')}});">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2  class="text-center">Vuoi un credito?</h2>
-              <p class="text-center">Portiamo alla vostra attenzione che, qualunque sia l'importo, siamo al vostro servizio e questo con un team che tratta con cura la vostra richiesta.</p>
+              <h2  class="text-center">Möchten Sie einen Kredit?</h2>
+              <p class="text-center">Wir machen Sie darauf aufmerksam, dass wir Ihnen unabhängig vom Betrag zur Verfügung stehen, und dies mit einem Team, das Ihre Anfrage mit Sorgfalt behandelt.</p>
             </div>
           </div>
         </div>
@@ -31,8 +31,8 @@
         <div class="carousel-item" style="background-image: url({{asset('theme/assets/img/slide/slide-3.jpg')}});">
           <div class="carousel-container">
             <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2 class="text-center">Hai bisogno di un investimento?</h2>
-              <p class="text-center">Trasformiamo i tuoi sogni in realtà. Fidati di noi e non rimarrai deluso.</p>
+              <h2 class="text-center">Brauchen Sie eine Investition?</h2>
+              <p class="text-center">Wir setzen Ihre Träume in die Realität um. Vertrauen Sie uns und Sie werden nicht enttäuscht sein.</p>
             </div>
           </div>
         </div>
@@ -60,24 +60,24 @@
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right">
-            <h2>La nostra offerta principale</h2>
-            <h3>Offriamo prestiti a tutte le persone serie bisognose</h3>
+            <h2>Unser Hauptangebot</h2>
+            <h3>Wir bieten allen ernsthaften Bedürftigen Kredite an</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
             <p>
-              <b style="color: green;">Hai bisogno di un finanziamento per risolvere qualche problema?</b> 
-              <br>Non preoccuparti, non stressarti. Siamo al tuo servizio 24 ore su 24, 7 giorni su 7 con un team dedicato alla tua soddisfazione.
+              <b style="color: green;">Benötigen Sie eine Finanzierung, um ein Problem zu lösen?</b> 
+              <br>Keine Sorge, kein Stress. Wir stehen Ihnen 24 Stunden am Tag, 7 Tage die Woche mit einem Team zur Verfügung, das sich Ihrer Zufriedenheit verschrieben hat.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Sii una persona di buon carattere</li>
-              <li><i class="ri-check-double-line"></i> Avere l'età della ragione</li>
-              <li><i class="ri-check-double-line"></i> Saper rispettare i testi</li>
+              <li><i class="ri-check-double-line"></i> Sei ein Mensch mit gutem Charakter</li>
+              <li><i class="ri-check-double-line"></i> Haben Sie das Alter der Vernunft</li>
+              <li><i class="ri-check-double-line"></i> Wissen, wie man die Texte respektiert</li>
             </ul>
             <p class="fst-italic">
-            Con noi avevi la certezza di ricevere il tuo finanziamento qualunque sia l'importo purché anche tu ci prendi sul serio.
+            Bei uns hatten Sie die Gewissheit, Ihre Finanzierung in jeder Höhe zu erhalten, solange Sie es auch ernst meinen.
             </p>
             <p>
-              <a class="btn btn-success" href="{{route('contact_it')}}"> Per fare una richiesta</a>
+              <a class="btn btn-success" href="{{route('contact_de')}}"> Eine Anfrage stellen</a>
             </p>
           </div>
         </div>
@@ -100,8 +100,8 @@
                 </svg>
                 <i class="fas fa-house-user"></i>
               </div>
-              <h4><a href="">Prestito a distanza</a></h4>
-              <p>Richiedi e ricevi il tuo prestito senza dover viaggiare</p>
+              <h4><a href="">Ferndarlehen</a></h4>
+              <p>Beantragen und erhalten Sie Ihr Darlehen, ohne reisen zu müssen</p>
             </div>
           </div>
 
@@ -113,8 +113,8 @@
                 </svg>
                 <i class="bx bx-file"></i>
               </div>
-              <h4><a href="">Conforme alle leggi</a></h4>
-              <p>Stabiliamo i nostri contratti di prestito dai nostri esperti legali. Che ti dà rassicurazione.</p>
+              <h4><a href="">Einhaltung von Gesetzen</a></h4>
+              <p>Unsere Kreditverträge erstellen wir durch unsere Rechtsexperten. Was Ihnen Sicherheit gibt.</p>
             </div>
           </div>
 
@@ -126,8 +126,8 @@
                 </svg>
                 <i class="bx bx-tachometer"></i>
               </div>
-              <h4><a href="">Rispettare le scadenze</a></h4>
-              <p>Rispettare le scadenze che abbiamo fissato per i nostri clienti ci rende una delle migliori organizzazioni</p>
+              <h4><a href="">Termine einhalten</a></h4>
+              <p>Die Einhaltung der Fristen, die wir unseren Kunden setzen, macht uns zu einem der besten Unternehmen</p>
             </div>
           </div>
 
@@ -141,7 +141,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>I nostri partner</h2>
+          <h2>Unsere Partner</h2>
         </div>
 
         <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">

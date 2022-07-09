@@ -1,5 +1,5 @@
-@extends('frontend_it/include/layout')
-@section('title') Chi siamo @endsection
+@extends('frontend_de/include/layout')
+@section('title') Über uns @endsection
 @section('contenu')
 <main id="main">
 
@@ -8,10 +8,10 @@
   <div class="container">
 
     <div class="d-flex justify-content-between align-items-center">
-      <h2>Chi siamo noi ?</h2>
+      <h2>Wer sind wir ?</h2>
       <ol>
-        <li><a href="{{route('accueil_it')}}">Pagina iniziale</a></li>
-        <li>Chi siamo</li>
+        <li><a href="{{route('accueil_de')}}">Startseite</a></li>
+        <li>Um</li>
       </ol>
     </div>
 
@@ -24,24 +24,24 @@
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right">
-            <h2>La nostra offerta principale</h2>
-            <h3>Offriamo prestiti a tutte le persone serie bisognose</h3>
+            <h2>Unser Hauptangebot</h2>
+            <h3>Wir bieten allen ernsthaften Bedürftigen Kredite an</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
             <p>
-              <b style="color: green;">Hai bisogno di un finanziamento per risolvere qualche problema?</b> 
-              <br>Non preoccuparti, non stressarti. Siamo al tuo servizio 24 ore su 24, 7 giorni su 7 con un team dedicato alla tua soddisfazione.
+              <b style="color: green;">Benötigen Sie eine Finanzierung, um ein Problem zu lösen?</b> 
+              <br>Keine Sorge, kein Stress. Wir stehen Ihnen 24 Stunden am Tag, 7 Tage die Woche mit einem Team zur Verfügung, das sich Ihrer Zufriedenheit verschrieben hat.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Sii una persona di buon carattere</li>
-              <li><i class="ri-check-double-line"></i> Avere l'età della ragione</li>
-              <li><i class="ri-check-double-line"></i> Saper rispettare i testi</li>
+              <li><i class="ri-check-double-line"></i> Sei ein Mensch mit gutem Charakter</li>
+              <li><i class="ri-check-double-line"></i> Haben Sie das Alter der Vernunft</li>
+              <li><i class="ri-check-double-line"></i> Wissen, wie man die Texte respektiert</li>
             </ul>
             <p class="fst-italic">
-            Con noi avevi la certezza di ricevere il tuo finanziamento qualunque sia l'importo purché anche tu ci prendi sul serio.
+            Bei uns hatten Sie die Gewissheit, Ihre Finanzierung in jeder Höhe zu erhalten, solange Sie es auch ernst meinen.
             </p>
             <p>
-              <a class="btn btn-success" href="{{route('contact_it')}}"> Per fare una richiesta</a>
+              <a class="btn btn-success" href="{{route('contact_de')}}"> Eine Anfrage stellen</a>
             </p>
           </div>
         </div>
@@ -54,8 +54,8 @@
   <div class="container">
 
     <div class="section-title" data-aos="fade-up">
-      <h2><strong>La nostra squadra</strong></h2>
-      <p>Abbiamo diverse persone nel nostro team, ma abbiamo avuto uno dei manager che si assicura che tu sia soddisfatto dei nostri servizi. Eccone alcuni</p>
+      <h2><strong>Unser Team</strong></h2>
+      <p>Wir haben mehrere Leute in unserem Team, aber wir hatten einen der Manager, der dafür sorgt, dass Sie mit unseren Dienstleistungen zufrieden sind. Hier sind ein paar</p>
     </div>
 
     <div class="row">
@@ -67,7 +67,7 @@
           </div>
           <div class="member-info">
             <h4>Hugo Meyer</h4>
-            <span>Responsabile clienti</span>
+            <span>Kundenmanager</span>
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@
           </div>
           <div class="member-info">
             <h4>Luc Salvio</h4>
-            <span>responsabile risorse umane</span>
+            <span>Personalleiter</span>
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@
           </div>
           <div class="member-info">
             <h4>Felizia Napleo</h4>
-            <span>Responsabile contabile</span>
+            <span>Buchhaltungsleiter</span>
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>I nostri partner</h2>
+          <h2>Unsere Partner</h2>
         </div>
 
         <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">

@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class Contact_it extends Mailable
+class Contact_de extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -38,6 +38,6 @@ class Contact_it extends Mailable
     {
         $date = date('d-m-Y');
         return $this->subject('contact@prestitoinvestimento-globale.org : '.$this->subject)->from('contact@prestitoinvestimento-globale.org', 'Hello prestitoinvestimento-globale')
-        ->view('frontend_it.email');
+        ->view('frontend_de.email');
     }
 }

@@ -54,7 +54,7 @@
   <div class="container">
 
     <div class="section-title" data-aos="fade-up">
-      <h2>Our <strong>Notre équipe</strong></h2>
+      <h2><strong>Notre équipe</strong></h2>
       <p>Nous disposons de plusieurs personnes dans notre équipe mais nous avions un des responsable qui veillent à ce que vous soyez satisfait par nos service. Voici quelques uns</p>
     </div>
 

@@ -1,5 +1,5 @@
 @extends('frontend_fr/include/layout')
-@section('title') Accueil @endsection
+@section('title') Contact @endsection
 @section('contenu')
 {!! htmlScriptTagJsApi() !!}
 <main id="main">
